@@ -3,14 +3,14 @@ Contributors: HDW Tube
 Tags: video, player, gallery, video player, youtube, clone, youtube clone, hd, HDW, high, definition, wordpress, plugin
 Requires at least: 2.8.6
 Tested up to: 3.x
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2
 
-This plugin is provided by HDW Tube. It enables you to embed HDW Tube on your WordPress websites.
+HDW Tube - Create video sharing websites like youtube and vimeo with HDW Tube plugin.
 
 == Description ==
 
-HDW Tube is an impressive plugin for WordPress websites. This plugin is altogether different and unique from other plugins available in Wordpress. You can effortlessly install this plugin to your WordPress website on the go. Most importantly through this plugin, you can create webpages as exact as youtube (as you see in youtube.com) with features which come with package. You would love this plugin for the look and the versatile options that comes with the package. Start downloading the plugin either from WordPress or from our website and save or the never-ending video experience.
+HDW Tube - Create video sharing websites like youtube and vimeo with HDW Tube plugin.
 
 Features include:
 
