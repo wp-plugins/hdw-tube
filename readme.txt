@@ -1,34 +1,34 @@
-=== HDW Tube Plugin===
+=== HDW WordPress Video Gallery===
 Contributors: HDW Tube
-Tags: video, player, gallery, video player, youtube, clone, youtube clone, hd, HDW, high, definition, wordpress, plugin
+Tags: video, player, gallery, video player, youtube, clone, video gallery, hd, HDW, high, HDW video gallery, wordpress
 Requires at least: 2.8.6
 Tested up to: 3.x
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2
 
-HDW Tube - Create video sharing websites like youtube and vimeo with HDW Tube plugin.
+HDW Tube(WordPress video gallery) - Create video sharing websites like youtube and vimeo with HDW Tube plugin.
 
 == Description ==
 
-HDW Tube - Create video sharing websites like youtube and vimeo with HDW Tube plugin.
+HDW Tube(WordPress video gallery) - Create video sharing websites like youtube and vimeo with HDW Tube plugin.
 
 Features include:
 
-* HDW Tube can handle variety of Media formats that flash can handle such as flv, mp4, 3g2, 3gp, aac, f4b, f4p, f4v, m4a, m4v, mov(h.264), sdp, vp6.	
+* HDW Tube(WordPress video gallery) can handle variety of Media formats that flash can handle such as flv, mp4, 3g2, 3gp, aac, f4b, f4p, f4v, m4a, m4v, mov(h.264), sdp, vp6.	
 * The Plugin includes native support for playing back Youtube videos. It can be done by just providing Youtube page URL to the plugin.
 * The Plugin includes native support for playing back Dailymotion videos. It can be done by just providing Dailymotion page URL to the plugin.
 * RTMP stands for "Real Time Messaging Protocol". It is a proprietary protocol developed by Adobe Systems for streaming audio, video and data over the Internet, between a Flash Player and a server. All the major RTMP servers such as Red5, Wowza and Adobe Flash Media Server are supported by HDW Tube.
 * If you are using a commercial version with the KEY provided by HDW Tube Sales Team, you will have an option to remove HDW Tube FREE text and you will be having your own Domain Name in the Context Menu that comes from the Right Click on the Player.
-* With our HDW Tube, you have freedom of enabling / disabling all the features that you can read in detail from our Documentation part.
-* Using HDW Tube, you can embed your videos on other websites easily by using the code generated on clicking Share - Embed Button.
-* HDW Tube has built-in option to share the video to the famous Social Networking sites such as Facebook, Twitter, etc...
-* HDW Tube allows you to share the video (that impressed you) to your friend by using the Email option inside the Player.
+* With our HDW Tube(WordPress video gallery), you have freedom of enabling / disabling all the features that you can read in detail from our Documentation part.
+* Using HDW Tube(WordPress video gallery), you can embed your videos on other websites easily by using the code generated on clicking Share - Embed Button.
+* HDW Tube(WordPress video gallery) has built-in option to share the video to the famous Social Networking sites such as Facebook, Twitter, etc...
+* HDW Tube(WordPress video gallery) allows you to share the video (that impressed you) to your friend by using the Email option inside the Player.
 * Button Tooltip is available for each button on the Player.
-* As youtube does, HDW Tube does also have the facility of adding channels, adding videos to channel.
+* As youtube does, HDW Tube(WordPress video gallery) does also have the facility of adding channels, adding videos to channel.
 
 == Installation ==
 
-Installing HDW Tube plugin can be achieved in two easy methods:
+Installing HDW Tube(WordPress video gallery) plugin can be achieved in two easy methods:
 
 1. Uploading Manually via WordPress Admin.
 2. Uploading Manually via FTP.
@@ -47,28 +47,28 @@ Uploading Manually via FTP :
 
 == Frequently Asked Questions ==
 
-= What is HDW Tube? =
+= What is HDW Tube(WordPress video gallery)? =
 HDW Tube is a Online Video Sharing plugin for your websites that is Built-In Flash Language Version AS3 with html5 fallback.
 
 = What type of video files does this plugin supports? =
 HDW Tube can handle variety of Media formats that flash can handle such as flv, mp4, 3g2, 3gp, aac, f4b, f4p, f4v, m4a, m4v, mov(h.264), sdp, vp6.
 
-= What are the requirements for installing HDW Tube? =
+= What are the requirements for installing HDW Tube(WordPress video gallery)? =
 You should have pre installed Flash Player 10 in order for the HDW Tube to be played.
 
 = What is the difference between Commercial and Non-Commercial users? =
 Commercial users of HDW Tube can have their own Logo and own Copyright for the plugin.
 
-= How long the HDW Tube has planned to release it's upgraded versions? =
+= How long the HDW Tube(WordPress video gallery) has planned to release it's upgraded versions? =
 HDW Tube has planned to release it's upgraded versions once in every 3 months. But in case any bug is founded in the plugin, the development team will be fixing it and release the sub-version immediately.
 
 = How are the supports provided by HDW Tube for it's users? =
 Currently HDW Tube offers 3 way support for it's users through Ticket, Forum and E-mail. Incase the user is not satisfied with any of our support system, He (or) She can complaint to the site admin directly by mailing to support@appten.net.
 
 == Screenshots ==
-1. Watch Page with related videos
-2. Video listing page
-3. HDW Tube admin, control panel page
+1. Video listing page
+2. HDW Tube admin, control panel page
+3. Watch Page with related videos
  
 == Upgrade Notice ==
 
@@ -82,7 +82,7 @@ You can perform the automatic update, download the plugin and upload, or FTP the
 
 == Usage ==
 
-Adding HDW Tube to your WordPress require three necessary steps :
+Adding HDW Tube(WordPress video gallery) to your WordPress require three necessary steps :
 
 #1 : Configuration
 
@@ -135,4 +135,6 @@ Note : Add plugin shortcode [hdwtube] to wordpress page or post
 == Changelog ==
 
 = 1.0 =
-* Initial release of the HDW Tube plugin for WordPress
+* Initial release of the HDW Tube plugin(WordPress video gallery) for WordPress
+= 1.2 =
+* Solved an issue in javascript.

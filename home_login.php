@@ -225,7 +225,7 @@ $channel_view .='<div style="height:100%; background:#F0F0F0; padding: 20px 20px
 
 /* *********************************************** * POPULAR ON CHANEL * ************************************************* */
 
-$pop_you_video = $wpdb->get_results($wpdb->prepare("SELECT * FROM $video_table_name WHERE video_upload_time BETWEEN NOW() - INTERVAL 30 DAY AND NOW() ORDER BY video_view DESC LIMIT 0,%d",$get_settings->videoperlist));
+$pop_you_video = $wpdb->get_results($wpdb->prepare("SELECT * FROM $video_table_name  ORDER BY video_view DESC LIMIT 0,%d",$get_settings->videoperlist));
 if($get_settings->sh_popularvideo == "yes")
 {
 $channel_view .='<div style="background:white; border-bottom:1px solid #C0C0C0; padding:10px;">';

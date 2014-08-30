@@ -124,11 +124,7 @@
 <script type="text/javascript" src="<?php echo $slider_url;?>"></script>
 <script>
 $hdwt(document).ready(function(){	
-	$hdwt('#slider_one').slider({ display: 1 });
-	$hdwt( window ).resize(function() {
-			$hdwt("#slider12 .viewport").css({"width":parseInt($vj('#ch_top_gal').css("width")) - 56 +"px"});
-			eval($hdwt('#slider_one').slider({ display: 1 }));
-	});
+	$hdwt('#slider_one').slider({ display: 1 });	
 });
 	
 

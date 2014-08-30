@@ -1,6 +1,6 @@
 <?php
 function hdwtube_db_install(){
-	global $wpdb;	global $youtube_sample_data;		$youtube_sample_data = 0;
+	global $wpdb;
 	$tablename = $wpdb->prefix."youtube_settings";		$sql="CREATE TABLE IF NOT EXISTS ".$tablename." (          `id` int(11) NOT NULL AUTO_INCREMENT,
 	      `hdw_sitename` varchar(500) NOT NULL,
 	      `show_uploadbtn` varchar(10) NOT NULL,
@@ -271,7 +271,7 @@ function hdwtube_db_install(){
 			  `playlist` tinyint(4) NOT NULL,
 			  `token` varchar(20) NOT NULL,
 			  UNIQUE KEY `id` (`id`));";
-	$wpdb->query($sql);	add_option( "youtube_sample_data", $youtube_sample_data );
+	$wpdb->query($sql);
 }
 
 function hdwtube_db_install_data() {

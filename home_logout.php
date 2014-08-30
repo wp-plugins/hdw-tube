@@ -123,7 +123,7 @@ $hdwt(document).ready(function ()
 <?php
 $get_settings = $wpdb->get_row("SELECT * FROM $settings_table_name");
 
-$get_all_video_list = $wpdb->get_results("SELECT * FROM $video_table_name WHERE video_status=0 AND video_upload_time >= DATE_SUB(NOW(), INTERVAL 30 DAY) AND video_upload_time <= NOW() ORDER BY video_view DESC");
+$get_all_video_list = $wpdb->get_results("SELECT * FROM $video_table_name WHERE video_status=0  ORDER BY video_view DESC");
 
 $get_channel_info = $wpdb->get_row ( "SELECT * FROM $channel_table_name WHERE channel_id=" . $get_all_video_list[0]->channel_id );
 
@@ -230,7 +230,7 @@ $channel_view .='<div style="height:100%; background:#F0F0F0;">';
 
 /* *********************************************** * POPULAR Channel * ************************************************* */
 
-$get_all_video_list = $wpdb->get_results("SELECT * FROM $video_table_name WHERE video_status=0 AND video_upload_time >= DATE_SUB(NOW(), INTERVAL 30 DAY) AND video_upload_time <= NOW() ORDER BY video_view DESC LIMIT 0,".$get_settings->videoperlist);
+$get_all_video_list = $wpdb->get_results("SELECT * FROM $video_table_name WHERE video_status=0 ORDER BY video_view DESC LIMIT 0,".$get_settings->videoperlist);
 
 if($get_settings->sh_popularvideo == "yes")
 {

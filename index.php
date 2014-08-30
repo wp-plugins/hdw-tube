@@ -3,7 +3,7 @@
 Plugin Name: HDW Tube 
 Plugin URI: http://www.appten.net/wordpress/hdw-tube-wp.html
 Description: HDW Tube Plugin for Wordpress Websites.
-Version: 1.1
+Version: 1.2
 Author: Mr. HDW Tube
 Author URI: http://www.appten.net
 ******************************************************************/
