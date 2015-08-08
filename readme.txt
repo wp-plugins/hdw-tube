@@ -2,7 +2,7 @@
 Contributors: HDW Tube
 Tags: video, player, gallery, video player, youtube, clone, video gallery, hd, HDW, high, HDW video gallery, wordpress
 Requires at least: 2.8.6
-Tested up to: 3.x
+Tested up to: 4.x
 Stable tag: 1.2
 License: GPLv2
 
