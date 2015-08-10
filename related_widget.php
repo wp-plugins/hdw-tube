@@ -8,11 +8,10 @@ function hdwtube_load_related_widgets()
 
 class hdwtube_related_Widget extends WP_Widget 
 {
-	function hdwtube_related_Widget()
-	{	
+	function __construct(){
 		$widget_ops = array( 'classname' => 'hdwtube_related', 'description' => __('Widget that display Related Videos list', 'hdwtube_related') );	
 		$control_ops = array( 'width' => '100%', 'height' => '100%', 'id_base' => 'hdwtube_related-widget' );
-		$this->WP_Widget( 'hdwtube_related-widget', __('HDW Tube Related Videos', 'hdwtube_related'), $widget_ops, $control_ops );
+		parent::__construct( 'hdwtube_related-widget', __('HDW Tube Related Videos', 'hdwtube_related'), $widget_ops, $control_ops );
 	}
 	
 	function widget( $args, $instance ) 
