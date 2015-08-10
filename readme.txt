@@ -138,3 +138,4 @@ Note : Add plugin shortcode [hdwtube] to wordpress page or post
 * Initial release of the HDW Tube plugin(WordPress video gallery) for WordPress
 = 1.2 =
 * Solved an issue in javascript.
+* Release for compatibility with WordPress new version.
